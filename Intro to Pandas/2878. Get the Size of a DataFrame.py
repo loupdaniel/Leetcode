@@ -1,6 +1,6 @@
 import pandas as pd
 
-
+'''
 student_data = {
     "student_id": [1,2,3,4],
     "age": [15,11,11,20],
@@ -15,3 +15,9 @@ def getDataframeSize(df):
     return print(f'[{x}, {y}]')
 
 getDataframeSize(df)
+'''
+
+
+def getDataframeSize(players):
+    return [players.shape[0], players.shape[1]]
+
